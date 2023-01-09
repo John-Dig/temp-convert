@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  background-color: rgb(186, 208, 186);
+  min-height: 40vh;
+  margin: 1em;
+  border-radius: 12px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+header {
+  height: 3em;
+  background-color: gray;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+}
+button {
+  font-size: 1.5em;
+  padding: 1em;
+}
+button:first-child {
+  margin-right: 1em;
+}
+#converter-buttons {
+  border: 1px solid black;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  width: 40vw;
+}
